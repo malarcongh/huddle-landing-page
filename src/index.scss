@@ -1,0 +1,13 @@
+// import abstracts
+@use './sass/abstracts/variables';
+
+// import base
+@use './sass/base/base';
+
+// import components
+@use './sass/components/button';
+@use './sass/components/socials';
+@use './sass/components/footer';
+
+// import layouts
+@use './sass/layouts/hero';

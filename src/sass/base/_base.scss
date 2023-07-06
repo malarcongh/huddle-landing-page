@@ -1,0 +1,51 @@
+html, body{
+  font-family: var(--font-poppins);
+  font-size: var(--font-main-size);
+  color: var(--color-off-white);
+  min-height: 100vh;
+  background-color: var(--color-violet);
+}
+
+body{
+  background-image: url('./assets/bg-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  list-style: none;
+}
+
+button{
+  border: none;
+  background: none;
+  font-family: var(--font-open-sans);
+}
+
+img{
+  max-width: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+@media screen and (max-width: 1500px) {
+  body{
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  body{
+    background-image: url('./assets/bg-mobile.svg');
+    background-size: contain;
+  }
+}
